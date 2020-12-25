@@ -1,0 +1,162 @@
+
+    .column {
+        float: left;
+        width: 25%;
+       
+        margin-top: 6px;
+        padding-left: 50%;
+        padding-top: 100px; ;
+
+        
+      }
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th, td {
+        padding: 15px;
+        text-align: left; 
+      }
+      .t01 {
+        width: 100%;    
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(60, 217, 245, 0.61));
+      }
+      .text-danger{
+        color: red;
+      }
+      .text-success{
+        color: green;
+      }
+      .position-center {
+        position: absolute;
+        top: 55%;
+        left: 75%;
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(60, 245, 214, 0.432));
+        border-radius: 10px;
+      padding-left: 50px;
+      padding-right: 50px;
+        transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        
+       }
+       .datashow{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+       }
+      
+      input, select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid  #008CBA;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        resize: vertical;
+        overflow: hidden;
+        border-radius: 10px;
+        background-color:white ;
+        outline: 0px;
+
+      }
+    
+      .button {
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        border-radius: 10px;
+        outline: 0px;
+        cursor: pointer;
+      }
+      .button2 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #008CBA;
+        outline: 0px;
+      }
+      
+      .button2:hover {
+        background-color: #008CBA;
+        color: white;
+        outline: 0px;
+      }      
+  
+     label{
+         font-style:initial;
+         font: outline;
+         color:black ;
+         font-size: 30px;
+
+         
+     }
+     h1 {
+      color:white;
+      text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    }
+      input[type=submit] {
+        width: 25%;
+        background-color: blue;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+      }  
+      .body {
+          
+          background-image:url("image/signup-bg.jpg") ;
+         background-color: white;
+         background-repeat: no-repeat;
+          background-size: cover ;
+
+
+      }   
+      .container {
+        position: relative;
+        text-align: center;
+        color: white;
+      } 
+      
+  
+  
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+ /* The navigation bar */
+    .navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 10px; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
